@@ -7,7 +7,7 @@
 	- Where and when to use `[weak self]`?
 	- [[Copy on write]]
 	- [[Side table]]
-	- Capture list in closures
+	- [[Capture list]]
 - [[Classes vs Structures]]
 - [[Enums]]
 - [[Access modifiers]]
@@ -62,8 +62,9 @@
 
 # Programming in common
 - [[OOP (object oriented programming)]]
-	- [[SOLID principles]]
-- Architectures
+- [[POO (protocol oriented programming)]]
+- [[SOLID principles]]
+- Architecture
 	- [[MVVM]]
 	- [[MVP]]
 	- [[VIPER architecture]]
