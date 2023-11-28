@@ -47,12 +47,36 @@ someArrayValues.forEach { intValue in
 # Property wrappers
 [Official documentation here](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/#Property-Wrappers)
 ```swift
+// перед объявлением структуры добавляем директиву @propertyWrapper
 @propertyWrapper
-struct SomeNumberWithValidation: Int {
+struct NumberLessOrEqualTo50: Int {
+	// в этом свойстве будет храниться само значение
 	private var value: Int = 0
-
-	var wrappedValue = 
+	
+	// через computed property добавляем валидацию
+	var valueWrapper: Int {
+		get {
+			// просто вернем значение, которое записано в приватном свойстве
+			return value
+		}
+		set (newValue) {
+			// присваеваем число, если оно меньше 50
+			value = min(newValue, 50)
+		}
+	}
 }
+
+
+// как использовать:
+// например, нам нужно сделать прямоугольник со сторонами не больше 50
+struct Rectangle {
+	@NumberLessOrEqualTo50 var width: Int
+	@NumberLessOrEqualTo50 var height: Int
+}
+
+let rectangle = Rectangle()
+rectangle.width = 30 // 30 меньше 50, это число запишется как есть
+rectangle.height = 80 // 80 больше 50, запишется 50, потому что сеттер в NumberLessOrEqualTo50 присвоит 50 или меньше
 ```
 
 
