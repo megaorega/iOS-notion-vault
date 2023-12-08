@@ -94,3 +94,17 @@ func handle(deepLink: DeepLink) {
   }
 }
 ```
+
+
+# subscripts
+[Official docs of subscripts here](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/subscripts#Subscript-Syntax)
+```swift
+subscript(index: Int) -> Int {
+	get {
+		// здесь нужно вернуть найденное значение по переданному индексу
+	}
+	set(newValue) {
+		// здесь нужно записать переданное значение по переданному индексу
+	}
+}
+```

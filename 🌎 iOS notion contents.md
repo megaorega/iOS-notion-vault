@@ -1,7 +1,7 @@
 # Swift
-- [[Method dispatch in Swift]]
-- [[Memory management]]
-	- Stack and heap
+- [[Method dispatch in Swift (как вызываются методы в Свифте)]]
+- [[Memory management (управлению памятью)]]
+	- [[Stack and heap (стек и куча)]]
 	- [[ARC]]
 	- [[Autorelease pool]]
 	- Where and when to use `[weak self]`?
@@ -9,12 +9,13 @@
 	- [[Side table]]
 	- [[Capture list]]
 - [[Classes vs Structures]]
-- [[Enums]]
-- [[Access modifiers]]
+- [[Enums (перечисления)]]
+- [[Access modifiers (модификаторы доступа)]]
 - [[Static]]
-- [[Extensions]]
-- [[Protocols]]
+- [[Extensions (расширения)]]
+- [[Protocols (протоколы)]]
 - [[Value type]]
+- [[Closures (замыкания)]]
 
 
 # UI & Graphics
