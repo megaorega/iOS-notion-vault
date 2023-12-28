@@ -1,7 +1,7 @@
 ### Abstract
 #tbd
 ##### Scheduler
-Для
+
 
 ### Learning materials
 ##### Articles

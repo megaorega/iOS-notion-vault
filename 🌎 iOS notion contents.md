@@ -47,7 +47,6 @@
 	- App launch
 	- Foreground, background, etc.
 	- [[Working in background]]
-- `SceneKit`
 - [[Run Loop]]
 
 
@@ -71,6 +70,7 @@
 	- [[VIPER architecture]]
 	- [[YARCH architecture]]
 	- Clean architecture
+	- [[Redux]]
 - [[Programming patterns]]
 	- __Creational__ (порождающие)
 		- [[Singleton pattern]]
@@ -129,6 +129,7 @@
 # iOS frameworks
 - [[VisionKit]]
 - [[Core ML]]
+- `SceneKit`
 - SpriteKit
 - GameplayKit
 
