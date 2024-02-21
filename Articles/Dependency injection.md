@@ -2,10 +2,10 @@
 Структурный паттерн проектирования.
 DI реализует принцип инверсии контроля (inversion of control, IoC).
 
-Внедрение зависимости позволяет написать программу так, чтобы компоненты не были сильно связаны (coupling).
+Внедрение зависимости позволяет написать программу так, чтобы компоненты не были сильно связаны (low coupling).
 
 Как можно внедрить зависимость:
-- Через инициализатор
+- __Через инициализатор__
 	 Наиболее предпочтительно, если нужно хранить ссылки на внедренные зависимости.
 	 
 	 Code example:
@@ -34,7 +34,7 @@ DI реализует принцип инверсии контроля (inversio
 	public var someProperty: String
 	weak public var delegate: UIViewControllerDelegate?
 	```
-- Method injection
+- __Method injection__
 	Используется, когда ссылки на внедренный объект хранить **не нужно**
 	
 	Code example:
@@ -43,8 +43,8 @@ DI реализует принцип инверсии контроля (inversio
 		func encodeWithCoder(aCoder: NSCoder)
 	}
 	```
-- Ambient context
-	Code example	```
+- __Ambient context__
+	Code example:
 	```swift
 	public class URLCache: NSObject {
 		public class func setSharedURLCache(cache: URLCache) {}

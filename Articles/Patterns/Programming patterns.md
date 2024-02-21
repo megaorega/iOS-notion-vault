@@ -6,13 +6,13 @@
 - __Структурные__ (расположение объектов друг относительно друга)
 - __Поведенческие__ (взаимодействие объектов между собой)
 
-|   Creational   |   Structural   |   Behavioral   |
-| :---: | :---: | :---: |
+| Creational | Structural | Behavioral |
+| :--: | :--: | :--: |
 | [[Singleton pattern\|Singleton]] | [[Facade pattern\|Facade]] | [[State pattern\|State]] |
 | [[Prototype pattern\|Prototype]] | [[Proxy pattern\|Proxy]] | [[Observer\|Observer]] |
 | [[Builder pattern\|Builder]] | [[Adapter pattern\|Adapter]] | [[Mediator\|Mediator]] |
-| [[Factory method pattern\|Factory method]] | | [[Iterator\|Iterator]] |
-| [[Abstract Factory pattern\|Abstract Factory]] | | |
+| [[Factory method pattern\|Factory method]] |  | [[Iterator\|Iterator]] |
+| [[Abstract Factory pattern\|Abstract Factory]] |  |  |
 
 
 

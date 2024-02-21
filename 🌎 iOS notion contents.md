@@ -1,6 +1,6 @@
 # Swift
-- [[Method dispatch in Swift (как вызываются методы в Свифте)]]
-- [[Memory management (управлению памятью)]]
+- [[Method dispatch in Swift (как вызываются методы)]]
+- [[Memory management]]
 	- [[Stack and heap (стек и куча)]]
 	- [[ARC]]
 	- [[Autorelease pool]]
