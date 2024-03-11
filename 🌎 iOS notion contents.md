@@ -63,29 +63,29 @@
 # Programming in common
 - [[OOP (object oriented programming)]]
 - [[POO (protocol oriented programming)]]
-- [[SOLID principles]]
-- Architecture
-	- [[MVVM]]
-	- [[MVP]]
-	- [[VIPER architecture]]
-	- [[YARCH architecture]]
-	- Clean architecture
-	- [[Redux]]
-- [[Programming patterns]]
-	- __Creational__ (порождающие)
-		- [[Singleton pattern]]
-		- [[Factory method pattern |Factory method]]
-		- [[Abstract Factory pattern]]
-		- [[Builder pattern]]
-		- [[Prototype pattern]]
-	- __Structure__ (структурные)
-		- [[Dependency injection]]
-		- [[Facade pattern]]
-		- [[Proxy pattern]]
-	- __Behavioral__ (поведенческие)
+## [[SOLID principles]]
+
+## Architecture
+- [[MVVM]]
+- [[MVP]]
+- [[VIPER architecture]]
+- [[YARCH architecture]]
+- Clean architecture
+- [[Redux]]
+## [[Programming patterns]]
+- __Creational__ (порождающие)
+	- [[Singleton pattern]]
+	- [[Factory method pattern |Factory method]]
+	- [[Abstract Factory pattern]]
+	- [[Builder pattern]]
+	- [[Prototype pattern]]
+- __Structure__ (структурные)
+	- [[Dependency injection]]
+	- [[Facade pattern]]
+	- [[Proxy pattern]]
+- __Behavioral__ (поведенческие)
 		- [[State pattern]]
-- [[Algorythms]]
-- 
+## [[Algorythms]]
 
 
 
